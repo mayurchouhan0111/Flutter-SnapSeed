@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Scroll Template Generator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;700&family=Inter:wght@300;400&display=swap');
+
+        :root {
+            --bg-color: #F8F5F2;
+            --text-color: #2A2A2A;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #333; /* Dark outer bg */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Bodoni Moda', serif;
+        }
+
+        /* The Canvas representing the full scrollable area (1080x3 * 1350) => 3240 x 1350 */
+        .canvas {
+            width: 3240px;
+            height: 1350px;
+            background-color: var(--bg-color);
+            position: relative;
+            transform-origin: left top;
+            transform: scale(0.3); /* Scaled down for viewing usually, zoom for high res screenshot */
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            display: grid;
+            grid-template-columns: 1080px 1080px 1080px; /* 3 Frames */
+        }
+
+        /* --- Design Elements --- */
+
+        /* Frame 1 */
+        .frame-1 {
+            position: relative;
+            border-right: 1px dashed #ccc;
+        }
+        
+        .title-huge {
+            position: absolute;
+            top: 150px;
+            left: 100px;
+            font-size: 200px;
+            font-weight: 700;
+            color: var(--text-color);
+            z-index: 2;
+            mix-blend-mode: multiply;
+        }
+
+        /* Frame 2 */
+        .frame-2 {
+            position: relative;
+            border-right: 1px dashed #ccc;
+        }
+
+        .vertical-text {
+            position: absolute;
+            right: 100px;
+            top: 400px;
+            font-family: 'Inter', sans-serif;
+            font-size: 40px;
+            letter-spacing: 10px;
+            transform: rotate(90deg);
+            color: #666;
+        }
+
+        /* Frame 3 */
+        .frame-3 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle-accent {
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            border: 2px solid #E0D8CC;
+            position: absolute;
+        }
+
+        .quote {
+            font-size: 90px;
+            text-align: center;
+            z-index: 2;
+            line-height: 1.2;
+        }
+
+        /* --- Placeholders (The "Green Screens" for Flutter) --- */
+        /* These show where the user should drag/drop images in the App */
+
+        .placeholder {
+            background-color: #E0E0E0;
+            border: 2px dashed #999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-family: 'Inter', sans-serif;
+            position: absolute;
+        }
+
+        /* Define Slots corresponding to JSON coordinates */
+        #slot-1 {
+            width: 800px;
+            height: 1000px;
+            top: 250px;
+            left: 140px;
+            transform: rotate(-2deg);
+        }
+
+        #slot-2 {
+            width: 800px;
+            height: 800px;
+            top: 250px;
+            left: 140px; /* Relative to Frame 2 start */
+        }
+
+        /* Global Helpers */
+        .absolute-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="canvas">
+        <!-- FRAME 1 -->
+        <div class="frame-1">
+            <div class="title-huge">Sunday</div>
+            <div class="placeholder" id="slot-1">
+                <span>IMAGE SLOT 1</span>
+            </div>
+        </div>
+
+        <!-- FRAME 2 -->
+        <div class="frame-2">
+            <div class="vertical-text">MORNING RITUAL</div>
+            <!-- x=140 relative to this frame, matches CSS grid logic -->
+            <div class="placeholder" id="slot-2">
+                <span>IMAGE SLOT 2</span>
+            </div>
+        </div>
+
+        <!-- FRAME 3 -->
+        <div class="frame-3">
+            <div class="circle-accent"></div>
+            <div class="quote">"Slow down<br>and enjoy."</div>
+        </div>
+
+        <!-- Foreground Texture (Grain) -->
+        <div class="absolute-container" style="pointer-events: none; opacity: 0.05; background-image: url('https://www.transparenttextures.com/patterns/noise-lines.png');"></div>
+    </div>
+
+</body>
+</html>

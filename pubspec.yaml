@@ -1,0 +1,74 @@
+name: photocaro
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.5.1
+  
+  # Navigation
+  go_router: ^14.2.0
+  
+  # Data Model & Functional Programming
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  fpdart: ^1.1.0
+  equatable: ^2.0.5
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  
+  # UI Components & Assets
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.6
+  
+  # Utilities
+  permission_handler: ^11.3.1
+  image_picker: ^1.1.2
+  screenshot: ^3.0.0
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+  image: ^4.7.2
+  share_plus: ^12.0.1
+  gal: ^2.3.2
+  google_generative_ai: ^0.4.7
+  flutter_dotenv: ^6.0.0
+  lottie: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.0
+  
+  # Testing
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/templates/
+    - assets/animations/

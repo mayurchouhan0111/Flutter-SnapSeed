@@ -1,0 +1,650 @@
+{
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Minimal"
+    },
+    {
+      "id": "c2",
+      "name": "Film"
+    },
+    {
+      "id": "c3",
+      "name": "Polaroid"
+    },
+    {
+      "id": "c4",
+      "name": "Paper"
+    }
+  ],
+  "templates": [
+    {
+      "id": "t_six_frame_story",
+      "name": "Six Frame Story",
+      "categoryId": "c1",
+      "thumbnailAsset": "assets/images/Screenshot 2025-12-26 141448.png",
+      "width": 6480,
+      "height": 1350,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "bg_f1",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "content": "assets/images/Screenshot 2025-12-26 141448.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "ph_f1",
+          "type": "image",
+          "x": 150,
+          "y": 300,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 0.8,
+          "rotation": -0.02
+        },
+        {
+          "id": "bg_f2",
+          "type": "image",
+          "x": 1080,
+          "y": 0,
+          "content": "assets/images/Screenshot 2025-12-26 141501.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "ph_f2",
+          "type": "image",
+          "x": 1230,
+          "y": 300,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 0.8,
+          "rotation": 0.02
+        },
+        {
+          "id": "bg_f3",
+          "type": "image",
+          "x": 2160,
+          "y": 0,
+          "content": "assets/images/Screenshot 2025-12-26 141509.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "ph_f3",
+          "type": "image",
+          "x": 2310,
+          "y": 300,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 0.8,
+          "rotation": -0.01
+        },
+        {
+          "id": "bg_f4",
+          "type": "image",
+          "x": 3240,
+          "y": 0,
+          "content": "assets/images/Screenshot 2025-12-26 141516.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "ph_f4",
+          "type": "image",
+          "x": 3390,
+          "y": 300,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 0.8,
+          "rotation": 0.03
+        },
+        {
+          "id": "bg_f5",
+          "type": "image",
+          "x": 4320,
+          "y": 0,
+          "content": "assets/images/Screenshot 2025-12-26 141523.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "ph_f5",
+          "type": "image",
+          "x": 4470,
+          "y": 300,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 0.8,
+          "rotation": -0.02
+        },
+        {
+          "id": "bg_f6",
+          "type": "image",
+          "x": 5400,
+          "y": 0,
+          "content": "assets/images/Screenshot 2025-12-26 141531.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "ph_f6",
+          "type": "image",
+          "x": 5550,
+          "y": 300,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 0.8,
+          "rotation": 0.01
+        }
+      ]
+    },
+    {
+      "id": "t1_minimal_scroll",
+      "name": "Sunday Ritual (Hybrid HTML)",
+      "categoryId": "c1",
+      "thumbnailAsset": "assets/images/template1_thumb.jpg",
+      "width": 3240,
+      "height": 1350,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "html_bg_generated",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "content": "assets/templates/html/bg_render_mock.png",
+          "scale": 1.0,
+          "rotation": 0
+        },
+        {
+          "id": "slot_1",
+          "type": "image",
+          "x": 140,
+          "y": 250,
+          "content": "assets/images/placeholder_vert.jpg",
+          "scale": 1.0,
+          "rotation": -0.035
+        },
+        {
+          "id": "slot_2",
+          "type": "image",
+          "x": 1220,
+          "y": 250,
+          "content": "assets/images/placeholder_sq.jpg",
+          "scale": 1.0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_minimal_beige_scroll",
+      "name": "Beige Calm (3 Frames)",
+      "categoryId": "c1",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?minimal",
+      "width": 3240,
+      "height": 1350,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "bg",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 10,
+          "rotation": 0,
+          "color": 4293322470
+        },
+        {
+          "id": "f1_title",
+          "type": "text",
+          "x": 120,
+          "y": 180,
+          "content": "Beige",
+          "fontSize": 110,
+          "color": 4280890383,
+          "fontFamily": "BodoniModa"
+        },
+        {
+          "id": "f1_photo",
+          "type": "image",
+          "x": 200,
+          "y": 450,
+          "content": "https://source.unsplash.com/featured/800x800?nature",
+          "scale": 0.85,
+          "rotation": -0.03
+        },
+        {
+          "id": "f2_photo",
+          "type": "image",
+          "x": 1300,
+          "y": 260,
+          "content": "https://source.unsplash.com/featured/800x800?minimal",
+          "scale": 0.7,
+          "rotation": 0.02
+        },
+        {
+          "id": "f2_text",
+          "type": "text",
+          "x": 1800,
+          "y": 850,
+          "content": "CALM",
+          "fontSize": 90,
+          "color": 4280890383,
+          "rotation": 1.57
+        },
+        {
+          "id": "f3_quote",
+          "type": "text",
+          "x": 2450,
+          "y": 500,
+          "content": "Find your quiet.",
+          "fontSize": 80,
+          "color": 4280890383
+        }
+      ]
+    },
+    {
+      "id": "t4_minimal_white_2frame",
+      "name": "Clean White (2 Frames)",
+      "categoryId": "c1",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?white",
+      "width": 2160,
+      "height": 1350,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "bg",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 10,
+          "color": 4294967295
+        },
+        {
+          "id": "left_photo",
+          "type": "image",
+          "x": 140,
+          "y": 200,
+          "content": "https://source.unsplash.com/featured/800x800?interior",
+          "scale": 0.9
+        },
+        {
+          "id": "right_photo",
+          "type": "image",
+          "x": 1220,
+          "y": 200,
+          "content": "https://source.unsplash.com/featured/800x800?design",
+          "scale": 0.9
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "x": 900,
+          "y": 1000,
+          "content": "Aesthetic",
+          "fontSize": 90,
+          "color": 4280282604
+        }
+      ]
+    },
+    {
+      "id": "t5_film_dirty_01",
+      "name": "Film Dust 02",
+      "categoryId": "c2",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?film",
+      "width": 1080,
+      "height": 1920,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "bg_black",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 10,
+          "color": 4278190080
+        },
+        {
+          "id": "film_border",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "content": "https://i.imgur.com/ORQwQ4S.png",
+          "scale": 1
+        },
+        {
+          "id": "photo",
+          "type": "image",
+          "x": 70,
+          "y": 340,
+          "content": "https://source.unsplash.com/featured/800x1000?portrait",
+          "scale": 1
+        },
+        {
+          "id": "time_stamp",
+          "type": "text",
+          "x": 150,
+          "y": 1550,
+          "content": "05 . 22 . 2024",
+          "fontSize": 36,
+          "color": 4293722111,
+          "fontFamily": "CourierPrime"
+        }
+      ]
+    },
+    {
+      "id": "t6_polaroid_duo",
+      "name": "Polaroid Duo (2 Photo)",
+      "categoryId": "c3",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?polaroid",
+      "width": 1080,
+      "height": 1920,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "bg_paper",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 5,
+          "color": 4294309365
+        },
+        {
+          "id": "p1_frame",
+          "type": "image",
+          "x": 120,
+          "y": 200,
+          "content": "https://i.imgur.com/Df8sW8m.png",
+          "scale": 1
+        },
+        {
+          "id": "p1_photo",
+          "type": "image",
+          "x": 180,
+          "y": 260,
+          "content": "https://source.unsplash.com/featured/800x800?travel",
+          "scale": 0.75
+        },
+        {
+          "id": "p2_frame",
+          "type": "image",
+          "x": 120,
+          "y": 1050,
+          "content": "https://i.imgur.com/Df8sW8m.png",
+          "scale": 1
+        },
+        {
+          "id": "p2_photo",
+          "type": "image",
+          "x": 180,
+          "y": 1110,
+          "content": "https://source.unsplash.com/featured/800x800?city",
+          "scale": 0.75
+        }
+      ]
+    },
+    {
+      "id": "t7_film_minimal_3",
+      "name": "Soft Film Trio",
+      "categoryId": "c2",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?cinematic",
+      "width": 3240,
+      "height": 1350,
+      "isPremium": true,
+      "layers": [
+        {
+          "id": "bg_dark",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 10,
+          "color": 4278219520
+        },
+        {
+          "id": "f1_photo",
+          "type": "image",
+          "x": 160,
+          "y": 260,
+          "content": "https://source.unsplash.com/featured/800x1000?portrait",
+          "scale": 0.9
+        },
+        {
+          "id": "f1_label",
+          "type": "text",
+          "x": 200,
+          "y": 1100,
+          "content": "Frame 01",
+          "fontSize": 50,
+          "color": 4294967295
+        },
+        {
+          "id": "f2_photo",
+          "type": "image",
+          "x": 1320,
+          "y": 260,
+          "content": "https://source.unsplash.com/featured/800x1000?street",
+          "scale": 0.9
+        },
+        {
+          "id": "f2_label",
+          "type": "text",
+          "x": 1360,
+          "y": 1100,
+          "content": "Frame 02",
+          "fontSize": 50,
+          "color": 4294967295
+        },
+        {
+          "id": "f3_photo",
+          "type": "image",
+          "x": 2500,
+          "y": 260,
+          "content": "https://source.unsplash.com/featured/800x1000?landscape",
+          "scale": 0.9
+        },
+        {
+          "id": "f3_label",
+          "type": "text",
+          "x": 2540,
+          "y": 1100,
+          "content": "Frame 03",
+          "fontSize": 50,
+          "color": 4294967295
+        }
+      ]
+    },
+    {
+      "id": "t8_paper_scrap_01",
+      "name": "Paper Tear Aesthetic",
+      "categoryId": "c4",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?paper",
+      "width": 1080,
+      "height": 1920,
+      "isPremium": true,
+      "layers": [
+        {
+          "id": "bg_paper",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "content": "https://i.imgur.com/tCwV4yY.jpg",
+          "scale": 1
+        },
+        {
+          "id": "torn_1",
+          "type": "image",
+          "x": 40,
+          "y": 350,
+          "content": "https://i.imgur.com/eCiBfWm.png",
+          "scale": 1.1
+        },
+        {
+          "id": "photo_main",
+          "type": "image",
+          "x": 100,
+          "y": 450,
+          "content": "https://source.unsplash.com/featured/800x1000?editorial",
+          "scale": 0.95
+        },
+        {
+          "id": "torn_2",
+          "type": "image",
+          "x": 40,
+          "y": 1300,
+          "content": "https://i.imgur.com/eCiBfWm.png",
+          "scale": 1.1,
+          "rotation": 3.14
+        }
+      ]
+    },
+    {
+      "id": "t9_paper_minimal_scroll_3",
+      "name": "Vintage Paper Scroll",
+      "categoryId": "c4",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?vintage",
+      "width": 3240,
+      "height": 1350,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "paper_bg",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "content": "https://i.imgur.com/tCwV4yY.jpg",
+          "scale": 1.2
+        },
+        {
+          "id": "f1_photo",
+          "type": "image",
+          "x": 180,
+          "y": 300,
+          "content": "https://source.unsplash.com/featured/800x800?coffee",
+          "scale": 0.85
+        },
+        {
+          "id": "f1_text",
+          "type": "text",
+          "x": 200,
+          "y": 1100,
+          "content": "Vibes",
+          "fontSize": 90,
+          "color": 4280295450
+        },
+        {
+          "id": "f2_photo",
+          "type": "image",
+          "x": 1380,
+          "y": 220,
+          "content": "https://source.unsplash.com/featured/800x800?journal",
+          "scale": 0.75
+        },
+        {
+          "id": "f2_text",
+          "type": "text",
+          "x": 1800,
+          "y": 800,
+          "content": "Soft",
+          "fontSize": 120,
+          "color": 4280295450,
+          "rotation": -1.5
+        },
+        {
+          "id": "f3_photo",
+          "type": "image",
+          "x": 2550,
+          "y": 350,
+          "content": "https://source.unsplash.com/featured/800x800?sunset",
+          "scale": 0.85
+        }
+      ]
+    },
+    {
+      "id": "t10_minimal_text_focus",
+      "name": "Quote Focus",
+      "categoryId": "c1",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?quote",
+      "width": 1080,
+      "height": 1350,
+      "isPremium": false,
+      "layers": [
+        {
+          "id": "bg_clean",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 10,
+          "color": 4294440959
+        },
+        {
+          "id": "photo_top",
+          "type": "image",
+          "x": 120,
+          "y": 120,
+          "content": "https://source.unsplash.com/featured/800x800?flower",
+          "scale": 0.9
+        },
+        {
+          "id": "quote",
+          "type": "text",
+          "x": 160,
+          "y": 950,
+          "content": "“Stay soft.”",
+          "fontSize": 110,
+          "color": 4280097560,
+          "fontFamily": "BodoniModa"
+        }
+      ]
+    },
+    {
+      "id": "t11_film_portrait_dark",
+      "name": "Cinematic Portrait",
+      "categoryId": "c2",
+      "thumbnailAsset": "https://source.unsplash.com/featured/400x400?cinema",
+      "width": 1080,
+      "height": 1920,
+      "isPremium": true,
+      "layers": [
+        {
+          "id": "bg",
+          "type": "shape",
+          "x": 0,
+          "y": 0,
+          "content": "rect_fill",
+          "scale": 10,
+          "color": 4278190080
+        },
+        {
+          "id": "film_overlay",
+          "type": "image",
+          "x": 0,
+          "y": 0,
+          "content": "https://i.imgur.com/4ZQZ9Ol.png",
+          "scale": 1
+        },
+        {
+          "id": "portrait",
+          "type": "image",
+          "x": 80,
+          "y": 350,
+          "content": "https://source.unsplash.com/featured/800x1000?portrait",
+          "scale": 1.05
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "x": 200,
+          "y": 1550,
+          "content": "CINEMATIC",
+          "fontSize": 60,
+          "color": 4294967295
+        }
+      ]
+    }
+  ]
+}
