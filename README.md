@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8199bca1-d858-41b8-ad39-f622250da041" width="300" />
+  <img src="https://github.com/user-attachments/assets/1826422a-0051-4bc8-b22f-67807a88ca64" width="300" />
+</p>
+
 # 📸 PhotoCaro - Next Gen AI Image Editor
 
 A professional-grade mobile image editing application built with **Flutter**, featuring advanced color science, high-performance background processing, and **Generative AI** powered by Google Gemini.
